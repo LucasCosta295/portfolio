@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Lucas Batista da Costa</title>
+  <style>
+    :root {
+      --bg-color: #f9f9f9;
+      --text-color: #222;
+      --accent-color: #0057d9;
+      --header-bg: #111;
+      --footer-bg: #111;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header,
+    footer {
+      background-color: var(--header-bg);
+      color: #fff;
+      padding: 1.5rem 1rem;
+      text-align: center;
+    }
+
+    header nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+
+    header nav a:focus,
+    header nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    h1, h2, h3 {
+      color: var(--accent-color);
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    .projeto {
+      background-color: #fff;
+      padding: 1rem;
+      border-left: 4px solid var(--accent-color);
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: var(--accent-color);
+    }
+
+    a:focus {
+      outline: 2px dashed var(--accent-color);
+    }
+
+    footer {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header role="banner">
+    <h1>Lucas Batista da Costa</h1>
+    <p>Editor de Vídeo | Criador de Conteúdo</p>
+    <nav aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section id="sobre" aria-labelledby="sobre-titulo">
+      <h2 id="sobre-titulo">Sobre Mim</h2>
+      <p>Olá, eu sou o Lucas e edito vídeos há mais de 6 anos. Faço vídeos para internet por pura diversão e, com isso, fui aprimorando minha própria edição. Independente do estilo de vídeo — seja ele de games, humor ou até vídeos noticiosos — estou sempre buscando entregar o melhor resultado possível.</p>
+    </section>
+
+    <section id="projetos" aria-labelledby="projetos-titulo">
+      <h2 id="projetos-titulo">Projetos</h2>
+
+      <article class="projeto" aria-labelledby="projeto1-titulo">
+        <h3 id="projeto1-titulo">Kingrisadas</h3>
+        <p>Perfil de humor com edições rápidas, cortes de vídeos virais e estilo dinâmico voltado para o entretenimento.</p>
+        <p><a href="https://www.tiktok.com/@kingrisadas" target="_blank" rel="noopener noreferrer">Ver no TikTok</a></p>
+      </article>
+
+      <article class="projeto" aria-labelledby="projeto2-titulo">
+        <h3 id="projeto2-titulo">Basquetehoops</h3>
+        <p>Canal focado em vídeos sobre basquete, highlights e conteúdo informativo sobre o mundo do esporte.</p>
+        <p><a href="https://www.youtube.com/@Basquetehoops" target="_blank" rel="noopener noreferrer">Ver no YouTube</a></p>
+      </article>
+
+      <article class="projeto" aria-labelledby="projeto3-titulo">
+        <h3 id="projeto3-titulo">Trabalhos Escolares (Lucas Filmes)</h3>
+        <p>Canal com vídeos escolares criativos, desenvolvidos para projetos acadêmicos.</p>
+        <p><a href="https://www.youtube.com/@lucasfilmes5164" target="_blank" rel="noopener noreferrer">Ver no YouTube</a></p>
+      </article>
+    </section>
+
+    <section id="contato" aria-labelledby="contato-titulo">
+      <h2 id="contato-titulo">Contato</h2>
+      <p>Você pode me encontrar no <a href="https://www.linkedin.com/in/lucas-costa-98183235b/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+      <p>E-mail: <a href="mailto:lucasjobsklbc@gmail.com">lucasjobsklbc@gmail.com</a></p>
+      <p>Celular / WhatsApp: <a href="tel:+5511992557815">(11) 99255-7815</a></p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>© 2025 Lucas Batista da Costa. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
